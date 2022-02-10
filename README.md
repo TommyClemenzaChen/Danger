@@ -24,3 +24,14 @@ G[Galileo] -.->|Text| B(3DSDN model)
 B -->|One| D[New Data]
 B -.->|Two| E[New Phy Data]
 ```
+
+
+```
+git add .
+
+git commit -m 'init'
+
+git branch -M main
+
+git push -u origin main
+```

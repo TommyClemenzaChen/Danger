@@ -1,5 +1,4 @@
 # Explainable AI Testbed
-<script  src=”https://cdnjs.cloudflare.com/ajax/libs/mermaid/8.3.1/mermaid.min.js"></script>
 
 ## Testbed
 1. Datasets
@@ -9,13 +8,13 @@
 5. Explainable Method
 6. Interpreting result
 
-[![](https://mermaid.ink/img/pako:eNp9U01r20AQ_SvD5hAZrJDU9KJDwMraQqR1YaVCwMphK43rpSvJrEZNTJz_3tWHv4Td1WWG9_bNe7Pog6VlhsxjK12-pWtpCL6JpAB7uL_8-xzGcfjquo8QcSfCXBak0tElPOZOjO9UG6kv4gF3AixzJLPt8ar-9dvIzRom3I34Ar5bI7qDzmCOrsEiQ4PmiDYn4ud9POiDk94KXJAWF3VjMdARV3QiDm10MYzeufkPGHRgIIZLCcSVW-3grow7zmIZbQtaY6Uq6Bd9EpG2GmEBK6W1d-PPmm9ckSn_oHczb07fuW8qo7X3sHnfyx-2k0mSFVJ1VJ0ey8WJrRbaP3bjbRcWO_AdIZ4gb151NDTm98bm8-nX-_uDsclkcm7rS2OrHecMw47Avbs66ZABXzZaqgKmIRw98JN6BoMgfhvgR0074EuOhCmpsoCw_Pl6INztGbNzxq2lsDHL0eRSZfav-miuJMwazzFhni0zXMlaU8KS4tNS643dMs4yRaVh3krqCsdM1lTauCnzyNS4J3Elbaa8Z33-AxYTEtg)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNp9U01r20AQ_SvD5hAZrJDU9KJDwMraQqR1YaVCwMphK43rpSvJrEZNTJz_3tWHv4Td1WWG9_bNe7Pog6VlhsxjK12-pWtpCL6JpAB7uL_8-xzGcfjquo8QcSfCXBak0tElPOZOjO9UG6kv4gF3AixzJLPt8ar-9dvIzRom3I34Ar5bI7qDzmCOrsEiQ4PmiDYn4ud9POiDk94KXJAWF3VjMdARV3QiDm10MYzeufkPGHRgIIZLCcSVW-3grow7zmIZbQtaY6Uq6Bd9EpG2GmEBK6W1d-PPmm9ckSn_oHczb07fuW8qo7X3sHnfyx-2k0mSFVJ1VJ0ey8WJrRbaP3bjbRcWO_AdIZ4gb151NDTm98bm8-nX-_uDsclkcm7rS2OrHecMw47Avbs66ZABXzZaqgKmIRw98JN6BoMgfhvgR0074EuOhCmpsoCw_Pl6INztGbNzxq2lsDHL0eRSZfav-miuJMwazzFhni0zXMlaU8KS4tNS643dMs4yRaVh3krqCsdM1lTauCnzyNS4J3Elbaa8Z33-AxYTEtg)
+[![](https://mermaid.ink/img/pako:eNp9U8FuozAQ_ZWRe1gihardaC8cKoV1gtDuphJQaaXQgwuTxqoxyJhto6b_XhMIATbpcJnRvHme92zeSZKnSByyEflrsmVKw-8glmCCuut_v_wo8h9t-w5CaoWYMal5MjnXj6gV4ZuuFBNn-x61PMwz1GrX9svq6VmxYgszaod0BX7GnhHCndRbLHnZgAZAirZCmaJCderWEdJhHY1qr1cbgjPUwVneKBjxBBd4QgoHE4KxCc02XzS9pukFY3u84MLU4eAmjRrMat25Bq3lPYl6JxBWsOFCOFfuov6mpVb5CzpXyzrayn7lqd46t8Xbkb5zJ2Walah7dzI_paveWoOp-wIl_DHPS_QGXfhPxfz4Tmoxe1_uwbWC4Cdk9ehkrMRtlSyX8x83N52S2Ww21PG91nHYzxq7MwH7-uJJ3fr4txCMS5j7cNqB9vIFjJS7BwH3ld4DXVPUmGieS_Dzh8cOcH1ELIaIbwZCpiRDlTGemh_yvR6JiVk8w5g4Jk1xwyqhYxLLDwOtCnMtuEi5zhVxNkyUOCWs0rmRmxBHqwqPIMqZ0ZS1qI9PxE0lBw)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNp9U8FuozAQ_ZWRe1gihardaC8cKoV1gtDuphJQaaXQgwuTxqoxyJhto6b_XhMIATbpcJnRvHme92zeSZKnSByyEflrsmVKw-8glmCCuut_v_wo8h9t-w5CaoWYMal5MjnXj6gV4ZuuFBNn-x61PMwz1GrX9svq6VmxYgszaod0BX7GnhHCndRbLHnZgAZAirZCmaJCderWEdJhHY1qr1cbgjPUwVneKBjxBBd4QgoHE4KxCc02XzS9pukFY3u84MLU4eAmjRrMat25Bq3lPYl6JxBWsOFCOFfuov6mpVb5CzpXyzrayn7lqd46t8Xbkb5zJ2Walah7dzI_paveWoOp-wIl_DHPS_QGXfhPxfz4Tmoxe1_uwbWC4Cdk9ehkrMRtlSyX8x83N52S2Ww21PG91nHYzxq7MwH7-uJJ3fr4txCMS5j7cNqB9vIFjJS7BwH3ld4DXVPUmGieS_Dzh8cOcH1ELIaIbwZCpiRDlTGemh_yvR6JiVk8w5g4Jk1xwyqhYxLLDwOtCnMtuEi5zhVxNkyUOCWs0rmRmxBHqwqPIMqZ0ZS1qI9PxE0lBw)
 ```
 flowchart LR
     DB[vKITTI]--> SD(Semantic)
     DB[vKITTI]--> TD(Textural)
     DB[vKITTI]--> GD(Geometry)
-    subgraph 3D-SDN Model
+    subgraph 3D-SDN Image Synthesis
         subgraph De-renderer
             SD
             TD
@@ -38,6 +37,10 @@ flowchart LR
         A
         N
     end
+    subgraph Open Models
+        B 
+    end
+
     A[vKITTI] -->|In| B(RRC model)
         style B fill:#FFA500,stroke:#333,stroke-width:2px
     N(Synthesis vKITTI) -.->|In| B(RRC model)
@@ -47,7 +50,6 @@ flowchart LR
     end
     B -->|Out| D[Detection IoU]
     B -.->|Out| E[Detection IoU']
-
 ```
 
 

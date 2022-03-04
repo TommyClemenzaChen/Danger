@@ -106,6 +106,5 @@ And if I extend the request length to 12 days, I am afraid that the maximum conn
 
 The short and cheerful answer is yes. 
 
-![vKITTI in Scene 06](../Pics/vk1_0006_30-deg-right_00043_visualize.png)
-
-![vKITTI 2 in Scene 06](../Pics/vk2_visualize.png)
+<img src="../Pics/vk1_0006_30-deg-right_00043_visualize.png" alt="vKITTI in Scene 06" style="width:200px;"/>
+<img src="../Pics/vk2_visualize.png" alt="vKITTI 2 in Scene 06" style="width:200px;"/>

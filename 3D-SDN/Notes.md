@@ -80,6 +80,9 @@ For example, if I want to train ```MaskRCNN```, I need to complete at least the 
 | Total (A+B+C+D+E)                           |                   |                         |                                                                      |
 
 
+The above training results are for vKITTI only, and if we consider expanding the generated data to vKITTI2 and Cityscape we can roughly multiply the total time by 3.
+However, if we can get the corresponding models for vKITTI (provided in the paper) and Cityscape, we can almost completely save this time.
+
 ## Empirical Knowledge
 ### Colab Pro vs SDSC HPC *Expense*
 Colab Pro is a very easy to get started with Cloud Services VM, although it requires reinstalling the graphics driver, conda, and Python every time you run it. 

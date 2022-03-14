@@ -223,7 +223,7 @@ if __name__ == '__main__':
         print("Training network heads")
         model.train_model(dataset_train, dataset_val,
                           learning_rate=config.LEARNING_RATE,
-                          epochs=40,
+                          epochs=40, #change here
                           layers='heads')
 
         # Training - Stage 2

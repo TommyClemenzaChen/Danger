@@ -43,7 +43,7 @@ Thu Mar  3 23:16:21 2022
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
 ```
-Since the code is runnning on a allocated virtual machine, each dependencies should be recover/initialized each time.
+Since the code is runnning on an allocated virtual machine, each dependencies should be recover/initialized each time.
 The running time estimation is listed as below, the  ```Hardware Setup```, ```3D-SDN Example/Download vkitti datasets``` sections are necessary for each running. 
 For example, if I want to train ```MaskRCNN```, I need to complete at least the steps before ```Download vkitti datasets```. All dependency packages and data need to be built from scratch.
 |                                             | Test Running Time | Real Running Time       | Notes                                                                |
@@ -68,9 +68,9 @@ For example, if I want to train ```MaskRCNN```, I need to complete at least the 
 |&nbsp; Test                                  | 6.8s              | ~8h                     | Test: 1 image<br>Real: 4252 (guess, 20% of total)                    |
 | Subtotal (C)                                | **1h 26min**      | **~300.06h (12.5days)** |                                                                      |
 | **Geometry Training**                       |                   |                         |                                                                      |
-|&nbsp; MaskRCNN-Train                        | ~8h               | ~3days (80h)            | Test: 1 Epoch<br>Real: 10 Epochs                                     |
-|&nbsp; Derender3D<br />Pre-training          | NA                | NA                      |                                                                      |
-|&nbsp; Fine-tuning                           | NA                | NA                      |                                                                      |
+|&nbsp; MaskRCNN-Train                        | ~8h               | ~3days (80h)            | Test: 1 Epoch<br>Real: 10 Epochs (adjustable in config.py)           |
+|&nbsp; Derender3D<br />&nbsp;Pre-training    | 5sec/batch        | ~18days (unsure)        | Test: 1 Epoch 8 batch/epoch<br>Real: 256 Epoch 1281 batch/epoch.<br> Memory reach 13Gb(maybe due to no MaskRCNN model), interrupt. |
+|&nbsp;&nbsp; Fine-tuning                     | NA                | NA                      |                                                                      |
 |&nbsp; Testing                               |                   |                         |                                                                      |
 | Subtotal (D)                                |                   |                         |                                                                      |
 | **Textural Training**                       |                   |                         |                                                                      |
@@ -86,13 +86,13 @@ However, if we can get the corresponding models for vKITTI (provided in the pape
 ## Empirical Knowledge
 ### Colab Pro vs SDSC HPC *Expense*
 Colab Pro is a very easy to get started with Cloud Services VM, although it requires reinstalling the graphics driver, conda, and Python every time you run it. 
-But the Colab Pro has a serious but understandable flaw - the maximum continuous run time is only **24** hours. This means that I must complete each test in the above table within each 24-hour interval.
+But the Colab Pro has a serious but understandable flaw - the maximum continuous run time is only [**24** hours](https://linuxtut.com/en/c58226bcb6150d50b618/). This means that I must complete each test in the above table within each 24-hour interval.
 
 As shown in the table above, if we need to retrain the data for vKITTI, Cityscape and vKITTI2, a maximum run time of **12** days is required, with a maximum continuous run time of **11** days.
 (accept lower accuracy, this time could perhaps be cut in half)
 
 So naturally, I tried creating a virtual machine on SDSC HPC *Expense* as well to see if it would run faster, since *Expense* provides four NVIDIA V100 SMX2 GPU graphics cards per node.
-But like all HPCs, DSC HPC *Expense* has a queuing mechanism, meaning you can only get the VMs you request when you get in line for your spot.  I test the following two command:
+But like all HPCs, SDSC HPC *Expense* has a queuing mechanism, meaning you can only get the VMs you request when you get in line for your spot.  I test the following two command:
 ```
 galyleo launch --account myID --partition gpu-shared --cpus 1 --memory 16 --time-limit 1:00:00 --env-modules cpu,gcc,anaconda3 --gpus 1
 ```

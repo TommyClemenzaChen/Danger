@@ -8,49 +8,62 @@
 5. Explainable Method
 6. Interpreting result
 
-[![](https://mermaid.ink/img/pako:eNp9U8FuozAQ_ZWRe1gihardaC8cKoV1gtDuphJQaaXQgwuTxqoxyJhto6b_XhMIATbpcJnRvHme92zeSZKnSByyEflrsmVKw-8glmCCuut_v_wo8h9t-w5CaoWYMal5MjnXj6gV4ZuuFBNn-x61PMwz1GrX9svq6VmxYgszaod0BX7GnhHCndRbLHnZgAZAirZCmaJCderWEdJhHY1qr1cbgjPUwVneKBjxBBd4QgoHE4KxCc02XzS9pukFY3u84MLU4eAmjRrMat25Bq3lPYl6JxBWsOFCOFfuov6mpVb5CzpXyzrayn7lqd46t8Xbkb5zJ2Walah7dzI_paveWoOp-wIl_DHPS_QGXfhPxfz4Tmoxe1_uwbWC4Cdk9ehkrMRtlSyX8x83N52S2Ww21PG91nHYzxq7MwH7-uJJ3fr4txCMS5j7cNqB9vIFjJS7BwH3ld4DXVPUmGieS_Dzh8cOcH1ELIaIbwZCpiRDlTGemh_yvR6JiVk8w5g4Jk1xwyqhYxLLDwOtCnMtuEi5zhVxNkyUOCWs0rmRmxBHqwqPIMqZ0ZS1qI9PxE0lBw)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNp9U8FuozAQ_ZWRe1gihardaC8cKoV1gtDuphJQaaXQgwuTxqoxyJhto6b_XhMIATbpcJnRvHme92zeSZKnSByyEflrsmVKw-8glmCCuut_v_wo8h9t-w5CaoWYMal5MjnXj6gV4ZuuFBNn-x61PMwz1GrX9svq6VmxYgszaod0BX7GnhHCndRbLHnZgAZAirZCmaJCderWEdJhHY1qr1cbgjPUwVneKBjxBBd4QgoHE4KxCc02XzS9pukFY3u84MLU4eAmjRrMat25Bq3lPYl6JxBWsOFCOFfuov6mpVb5CzpXyzrayn7lqd46t8Xbkb5zJ2Walah7dzI_paveWoOp-wIl_DHPS_QGXfhPxfz4Tmoxe1_uwbWC4Cdk9ehkrMRtlSyX8x83N52S2Ww21PG91nHYzxq7MwH7-uJJ3fr4txCMS5j7cNqB9vIFjJS7BwH3ld4DXVPUmGieS_Dzh8cOcH1ELIaIbwZCpiRDlTGemh_yvR6JiVk8w5g4Jk1xwyqhYxLLDwOtCnMtuEi5zhVxNkyUOCWs0rmRmxBHqwqPIMqZ0ZS1qI9PxE0lBw)
+[![](https://mermaid.ink/img/pako:eNqlVF1v2jAU_StWqmpUgpYVddPyMCnBTQgTbEqyCSnhwSMXiJYP5DhtUeC_zybBmHStVtVP9rnn-N5jX7vSFnkEmq4tk_xxsSaUIR-HGeIDm0Hn4Zvj-87VvNf7iorydxPhsxUlmzUa4J6Hp8hJyQqQt83YGoq4qElnRKENMPQoZBFQoPMTRwwPBx6kJGPxohXxceDDEyspSVoRGwc25CkwulUifP9_pHebtK293daO7gv7eBiJA_Dd4OZYzI2S0389bNdh2-0c672qg7b7ok6m92vOVDHFtgmgKVrGSaJfmEOjj4fdgtH8D-gXlhjNqvcYR2ytf9w8hVktv7w8HUlEGCmAKZclOWJM5UqWIqUTP5jwpkmQT0mcxdlKMWsq9T9vI-Fl52Q7ZHLLhK6A6ch1h-pp1fbMxl6_b1mfLWlvMBicm7sV5g71Bh3Zf-iU7vrVfNLRLJgZjlKEVVXeZL9X7rCqbEqioXGGjjhtZPxQIaeqpsBwXKjguKr8ofFLhU5WrcaqZRl3_f5_WD2X2--Tjxr57ZfhnfXpzXLnffLxW-WyGXljWqKb-L1JwG4DozbgtIGxBJ6_EJUn884Oz3EHDyQpCYtz0Vt1xDw09_eS7ZD46hgsRBg5-c-5JFwfGffnjA9zraulQFMSR_wvroQg1Hg3pxBqOp9GsCRlwkItzPacWm7484X7KGY51fQlSQroaqRkOX8DC01ntIQjCceE20kb1v4v8mm1kQ)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqlVF1v2jAU_StWqmpUgpYVddPyMCnBTQgTbEqyCSnhwSMXiJYP5DhtUeC_zybBmHStVtVP9rnn-N5jX7vSFnkEmq4tk_xxsSaUIR-HGeIDm0Hn4Zvj-87VvNf7iorydxPhsxUlmzUa4J6Hp8hJyQqQt83YGoq4qElnRKENMPQoZBFQoPMTRwwPBx6kJGPxohXxceDDEyspSVoRGwc25CkwulUifP9_pHebtK293daO7gv7eBiJA_Dd4OZYzI2S0389bNdh2-0c672qg7b7ok6m92vOVDHFtgmgKVrGSaJfmEOjj4fdgtH8D-gXlhjNqvcYR2ytf9w8hVktv7w8HUlEGCmAKZclOWJM5UqWIqUTP5jwpkmQT0mcxdlKMWsq9T9vI-Fl52Q7ZHLLhK6A6ch1h-pp1fbMxl6_b1mfLWlvMBicm7sV5g71Bh3Zf-iU7vrVfNLRLJgZjlKEVVXeZL9X7rCqbEqioXGGjjhtZPxQIaeqpsBwXKjguKr8ofFLhU5WrcaqZRl3_f5_WD2X2--Tjxr57ZfhnfXpzXLnffLxW-WyGXljWqKb-L1JwG4DozbgtIGxBJ6_EJUn884Oz3EHDyQpCYtz0Vt1xDw09_eS7ZD46hgsRBg5-c-5JFwfGffnjA9zraulQFMSR_wvroQg1Hg3pxBqOp9GsCRlwkItzPacWm7484X7KGY51fQlSQroaqRkOX8DC01ntIQjCceE20kb1v4v8mm1kQ)
 ```
-flowchart LR
-    DB[vKITTI]--> SD(Semantic)
-    DB[vKITTI]--> TD(Textural)
-    DB[vKITTI]--> GD(Geometry)
+flowchart TD
+    DB[(vKITTI)]--> subD
     subgraph 3D-SDN Image Synthesis
-        subgraph De-renderer
-            SD
-            TD
-            GD
+        subgraph subD[De-renderer]
+            SD[Semantic]
+            TD[Textural]
+            GD[Geometry]
         end
         subgraph Renderer
             TR
             GR
         end
-        SD --> TR(Textural)
-        TD --> TR(Textural)
+        SD --> TR[/Textural/]
+        TD --> TR[/Textural/]
         GD --> GR(Geometry)
-    GR --> TR(Textural)
+    GR --> TR[/Textural/]
+    end
+    TR --> N
+        style N fill:#BCA0DC,stroke:#FFFFF,stroke-width:1px
+
+    %% subgraph datasets
+        
+    %%     N
+    %% end
+    subgraph MT[Model Training]
+        B
     end
 
-    TR --> N[Synthesis vKITTI]
-        style N fill:#BEBEBE,stroke:#FFFFF,stroke-width:1px
+    DB[(vKITTI)] -->|In| B[/Target: RRC/]
+        style B fill:#00FF7F,stroke:#333,stroke-width:2px
+    N[(Synthesis vKITTI)] -.->|In| B[/Target: RRC/]
+    subgraph X[XAI]
+        F{{SM}}
+        G{{GradCAM}}
+        H{{SHAP}}
+        I{{NetDis}}
+        J{{TCAV}}
+            style F fill:#FFA500,stroke:#333,stroke-width:2px
+            style G fill:#FFA500,stroke:#333,stroke-width:2px
+            style H fill:#29C5F6,stroke:#333,stroke-width:2px
+            style I fill:#29C5F6,stroke:#333,stroke-width:2px
+            style J fill:#29C5F6,stroke:#333,stroke-width:2px
+    end
+    %% F -->XAI
+    %% G -->XAI
+    %% H -->XAI
+    %% I -->XAI
+    %% J -->XAI
 
-    subgraph datasets
-        A
-        N
-    end
-    subgraph Open Models
-        B 
-    end
-
-    A[vKITTI] -->|In| B(RRC model)
-        style B fill:#FFA500,stroke:#333,stroke-width:2px
-    N(Synthesis vKITTI) -.->|In| B(RRC model)
-    subgraph eXplain AI 
-        D 
-        E 
-    end
+    %% subgraph XAI
+    %% end
+    X --> |evaluation| B
     B -->|Out| D[Detection IoU]
-    B -.->|Out| E[Detection IoU']
-```
+    B -.->|Out| E[Detection IoU']s```
 
 
 ```

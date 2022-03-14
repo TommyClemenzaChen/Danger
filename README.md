@@ -8,7 +8,7 @@
 5. Explainable Method
 6. Interpreting result
 
-[![](https://mermaid.ink/img/pako:eNqtVmFv2jAQ_StWpkqtBIMWdW35MAkwoXSDVYlVIQU0uckBUYMTOU4pCvz3OSQQJ0DXarMUyfbdu3t39p0Ta7bvgNbUpp6_tOeUC_TTGDMkB25b568_-oT0LybpDjFQtfodDdNVMkKx8gAN0dT1vOaXdqdVx51KKLj_As0vejKyVXXpOmLevAzexkzCUwth9DzjNJijAbEGkoaHCKcuc9lskrtoWzVC-QxEExlGpzYpO29nzut1Xb_R984bjUbR9VXiOoEBcw7cM1i-w-CvFP4DB0Issgpcmx6lgNv5fEBO2fgVcUt-oQI8O0MNrNgxVTsy6nw5yqcN_BuD4qTkBpsWpoKGIFRPQ-vcXDExh9ANUfHeJOMJl2_TIf8uHj5aj9y3IQyL8etxbFLPBWav0IAGgZRuNrm4F8c9Tp1Oa6Du5gekZ-ej663rev0D51OE9z4LPxqaYRkQcAiBCSpcnynh3cvw7luPKvl-HA9BYDdUNx_imHRaT8eDvM9YXt11rvVvnw6y_2_wh8_CD3O0vXZWA1dNPET9BZ0B2t8oteZ2-oY0ARx4kQ4xiuuest77LNiRE2xhqPLM3qRowMSWCQvKhGuXJARbBN5ExKlXkvSw1QN_AYKvJiX3p6IfWaNWX1FOiqGwMkrIZNgeDUMMU8TByQ5g6tgluUxsIj_clelOBUcMzjgAy0ze3er63W0ZP0p1dmj1uUDVr_Kd2DWqJ5zCkrdDaS1pnra7PeN8l64LRZg-N8SQ7TdLs9p7TfyumJwWj1BOaN19CzzZb1Hed9Zqa8TmXne9rCHqvAIPKXdln3ZZEImC8oBkykn42KoNhyFa1nyJKoJ2RLbQjEh3p35S-yjtYk9Zo26eAc9lL-a2OG9QuQYr25NlPoNdqT57ERzDXl5-ACxvkVbRFsAX1HXk30ScWBprsnYXMNaacurAlEaeGGtjtpGqUeBQAV3HFT7XmlPqhVDRaCR8WfG21hQ8gp0SdqmskEWmtfkDVNSQFw)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqtVmFv2jAQ_StWpkqtBIMWdW35MAkwoXSDVYlVIQU0uckBUYMTOU4pCvz3OSQQJ0DXarMUyfbdu3t39p0Ta7bvgNbUpp6_tOeUC_TTGDMkB25b568_-oT0LybpDjFQtfodDdNVMkKx8gAN0dT1vOaXdqdVx51KKLj_As0vejKyVXXpOmLevAzexkzCUwth9DzjNJijAbEGkoaHCKcuc9lskrtoWzVC-QxEExlGpzYpO29nzut1Xb_R984bjUbR9VXiOoEBcw7cM1i-w-CvFP4DB0Issgpcmx6lgNv5fEBO2fgVcUt-oQI8O0MNrNgxVTsy6nw5yqcN_BuD4qTkBpsWpoKGIFRPQ-vcXDExh9ANUfHeJOMJl2_TIf8uHj5aj9y3IQyL8etxbFLPBWav0IAGgZRuNrm4F8c9Tp1Oa6Du5gekZ-ej663rev0D51OE9z4LPxqaYRkQcAiBCSpcnynh3cvw7luPKvl-HA9BYDdUNx_imHRaT8eDvM9YXt11rvVvnw6y_2_wh8_CD3O0vXZWA1dNPET9BZ0B2t8oteZ2-oY0ARx4kQ4xiuuest77LNiRE2xhqPLM3qRowMSWCQvKhGuXJARbBN5ExKlXkvSw1QN_AYKvJiX3p6IfWaNWX1FOiqGwMkrIZNgeDUMMU8TByQ5g6tgluUxsIj_clelOBUcMzjgAy0ze3er63W0ZP0p1dmj1uUDVr_Kd2DWqJ5zCkrdDaS1pnra7PeN8l64LRZg-N8SQ7TdLs9p7TfyumJwWj1BOaN19CzzZb1Hed9Zqa8TmXne9rCHqvAIPKXdln3ZZEImC8oBkykn42KoNhyFa1nyJKoJ2RLbQjEh3p35S-yjtYk9Zo26eAc9lL-a2OG9QuQYr25NlPoNdqT57ERzDXl5-ACxvkVbRFsAX1HXk30ScWBprsnYXMNaacurAlEaeGGtjtpGqUeBQAV3HFT7XmlPqhVDRaCR8WfG21hQ8gp0SdqmskEWmtfkDVNSQFw)
+[![](https://mermaid.ink/img/pako:eNqtVmFv2jAQ_StWpkmtVAYt67ryYRJgQukGqxKrQgpo8pKDRg1OZDulKO1_n0MS4tDQtdqMkGzfvbt39vkuieGGHhgdYxGEa_eOcol-WDOG1MA95-jh-4iQ0fE82yEWajS-oUm2SoeQmwDQBC38IOh86PW7Ldw_EZKH99D5YKYjXzXWvifvOqfR44wpeGZBxL-XnEZ3aEycsaIRIMKpz3y2nJcuek6TUL4E2UGW1W_O9533cuetlmlemDvn7Xa76vosdZ3CgHkv3DNYv8LgrxT-AwdCHLKJfJfWUsC9cj4mh2z8jLmj_kIDfvyI2lizY-t2VNTlclpO2_gXBs3JnhtsO5hKKkDqnibOkb1h8g6EL1A1b9Jxi_ez6SX_AZ7cODc8dEGIavxmktg08IG5GzSmUaSkz8-leJgkQ069fnes75YXZOb3Y5rd81brDfdThQ_fC68NzXIsiDgIYJJKP2RaeFcqvKvujU5-lCQTkNgX-uZ1kpB-97Y-yKuc5dll_9z88u4gR_8Gv34v_OUZbdPOaeOGjSdotKJLQLuM0t9coW8pE8CBV-kQq7oeauudz2o-53YcDA2ez-dVIzZ2bFhRJn13T0KwQ-BRxpwGe5IhdoYQrkDyzXyPwqETmDrT7khTTh9EZWXtIdPhBlQIDAvEwcsvYeG5uxsYnA8-D86q1LYQdd4ppF6ibiIT1vhZcgCWe7r8apqXX9_gbJrBDhncFE-sm_7eYK-4_C24TgH_TSE93NeE1mHTdi6qiUVyysSuXmgd8LVgVNHOgHVCQgrZy76MGp9UQy46wi3OcGmT1mp4lozb3aF1VOTksSbM-jqxVJ_Lc1lvcjZ-VUwOi6eoJPQ0eIwC1dhQWeCf9B6kDrXQfVo3EfUegAvKfdUQfRbFsqI8JrlyGj52mpOJQOtmqFBVUEFkC82JDAr1g9q1tKvF-wkNyhMIfHZvb6vgBdovdifbVGAhgyIPfgcx1GFPT98AVm_SODFWwFfU99RnW5JamhmqSK5gZnTU1IMFjQM5M2bsWanGkUclDDxfhtzoLGgg4MSgsQxVaXWNjuQxFErYp6oMrXKt5z869fTY)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqtVmFv2jAQ_StWpkmtVAYt67ryYRJgQukGqxKrQgpo8pKDRg1OZDulKO1_n0MS4tDQtdqMkGzfvbt39vkuieGGHhgdYxGEa_eOcol-WDOG1MA95-jh-4iQ0fE82yEWajS-oUm2SoeQmwDQBC38IOh86PW7Ldw_EZKH99D5YKYjXzXWvifvOqfR44wpeGZBxL-XnEZ3aEycsaIRIMKpz3y2nJcuek6TUL4E2UGW1W_O9533cuetlmlemDvn7Xa76vosdZ3CgHkv3DNYv8LgrxT-AwdCHLKJfJfWUsC9cj4mh2z8jLmj_kIDfvyI2lizY-t2VNTlclpO2_gXBs3JnhtsO5hKKkDqnibOkb1h8g6EL1A1b9Jxi_ez6SX_AZ7cODc8dEGIavxmktg08IG5GzSmUaSkz8-leJgkQ069fnes75YXZOb3Y5rd81brDfdThQ_fC68NzXIsiDgIYJJKP2RaeFcqvKvujU5-lCQTkNgX-uZ1kpB-97Y-yKuc5dll_9z88u4gR_8Gv34v_OUZbdPOaeOGjSdotKJLQLuM0t9coW8pE8CBV-kQq7oeauudz2o-53YcDA2ez-dVIzZ2bFhRJn13T0KwQ-BRxpwGe5IhdoYQrkDyzXyPwqETmDrT7khTTh9EZWXtIdPhBlQIDAvEwcsvYeG5uxsYnA8-D86q1LYQdd4ppF6ibiIT1vhZcgCWe7r8apqXX9_gbJrBDhncFE-sm_7eYK-4_C24TgH_TSE93NeE1mHTdi6qiUVyysSuXmgd8LVgVNHOgHVCQgrZy76MGp9UQy46wi3OcGmT1mp4lozb3aF1VOTksSbM-jqxVJ_Lc1lvcjZ-VUwOi6eoJPQ0eIwC1dhQWeCf9B6kDrXQfVo3EfUegAvKfdUQfRbFsqI8JrlyGj52mpOJQOtmqFBVUEFkC82JDAr1g9q1tKvF-wkNyhMIfHZvb6vgBdovdifbVGAhgyIPfgcx1GFPT98AVm_SODFWwFfU99RnW5JamhmqSK5gZnTU1IMFjQM5M2bsWanGkUclDDxfhtzoLGgg4MSgsQxVaXWNjuQxFErYp6oMrXKt5z869fTY)
 ```
 flowchart LR
     DB[(vKITTI)]
@@ -59,7 +59,7 @@ flowchart LR
             TR
             GR
         end
-        subgraph subD[De-renderer]
+        subgraph Denderer[De-renderer]
             SD[Semantic]
             TD[Textural]
             GD[Geometry]
@@ -70,12 +70,23 @@ flowchart LR
         EDNP
         EDNR
     end
-        classDef red fill:#fdc
-        class 3D red
-        class 3D_De red
+        classDef red fill:#fdc,stroke:#E5E4E2
+            class 3D red
+            class 3D_De red
 
-        classDef green fill:#98FF98
-        class X green
+        classDef green fill:#98FF98,stroke:#E5E4E2
+            class X green
+
+        classDef grey fill:#FAFAFA,stroke:#E5E4E2
+            class Renderer grey
+            class Denderer grey
+            class EDNP grey
+            class EDNR grey
+            class DS grey
+
+        classDef trans fill:#FFFFFF,stroke:#E5E4E2
+            class Our trans
+            class TT trans
 
     DB[(vKITTI)] -.-> MT
     VD      --> 3D_De
@@ -90,7 +101,7 @@ flowchart LR
     X       --> |Explain Representation| E
         linkStyle 7 stroke-width:2px,fill:none,stroke:blue
         linkStyle 11 stroke-width:2px,fill:none,stroke:red
-```
+        ```
 git add .
 
 git commit -m 'init'

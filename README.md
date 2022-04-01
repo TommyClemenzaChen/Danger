@@ -8,6 +8,9 @@
 5. Explainable Method
 6. Interpreting result
 
+
+## Mermaid Flowchart
+
 [![](https://mermaid.ink/img/pako:eNqtVmFv2jAQ_StWpkqdVAYt69byYRJgQukGqxKrQgpo8pKDRgtOZDujKO1_n0MS4tDAWm1GSLbv3t07-3yXxHBDD4yOsQjCtftAuUTfrBlDauCec_r764iQ0ft5tkMs1Gh8QZNslQ4hNwGgCVr4QdB51-t3W7h_JiQPf0HnnZmOfNVY-5586JxHjzOm4JkFEf9ccho9oDFxxopGgAinPvPZcl666DlNQvkSZAdZVr8533fey523Wqb52dw5b7fbVdcXqesUBsx74Z7B-giDv1L4DxwIccgm8l1aSwH3yvmYHLLxPeaO-gsNeHKC2lizY-t2VNTlclpO2_gHBs3JnhtsO5hKKkDqnibOqb1h8gGEL1A1b9Jxj_ez6SX_AZ7cOXc8dEGIavxmktg08IG5GzSmUaSkz8-leJgkQ069fnes75YXZOb3Y5rdy1brFfdThQ_fCq8NzXIsiDgIYJJKP2RaeDcqvJvunU5-lCQTkNgX-uZtkpB-974-yJuc5cV1_9L89OYgR_8Gv30r_OUZbdPOaeOGjSdotKJLQLuM0t9coW8pE8CBV-kQq7oeauudz2o-53YcDA2ez-dVIzZ2bFhRJn13T0KwQ-BRxpwGe5IhdoYQrkDyzXyPwqETmDrT7khTTh9EZWXtIdPhBlQIDAvEwcsvYeG5uxsYXA4-Di6q1LYQdd4ppF6ibiIT1vhZcgCWe7q-Ms3rq1c4m2awQwY3xRPrpr-j9lRJy0wW97_FH9DBr9BJT_kvcuuoDzuX1oQmOWViVz60hnjsrFQNz4B1QkIK2cs2jRofVH8uGsQ9znBpz9ZKepab292hdVqk6HtNmLV5Yqm2l6e23vNsfFRMDounqCT0NHiMAtXnUFnvn_SWpA610H1aNxH1fgMXlPuqP_osimVFeUxy5TR87DQnE4HWzVChqqCCyBaaExkU6ge1a2lXa_kTGpQnEPjsl70tip_Rfu0726YCCxkUefAziKEOe37-CrB6osaZsQK-or6nvuKS1NLMUDVzBTOjo6YeLGgcyJkxY89KNY48KmHg-TLkRmdBAwFnBo1lqCqta3Qkj6FQwj5VVWmVaz3_Af9I9uo)](https://mermaid-js.github.io/mermaid-live-editor/edit#pako:eNqtVmFv2jAQ_StWpkqdVAYt69byYRJgQukGqxKrQgpo8pKDRgtOZDujKO1_n0MS4tDAWm1GSLbv3t07-3yXxHBDD4yOsQjCtftAuUTfrBlDauCec_r764iQ0ft5tkMs1Gh8QZNslQ4hNwGgCVr4QdB51-t3W7h_JiQPf0HnnZmOfNVY-5586JxHjzOm4JkFEf9ccho9oDFxxopGgAinPvPZcl666DlNQvkSZAdZVr8533fey523Wqb52dw5b7fbVdcXqesUBsx74Z7B-giDv1L4DxwIccgm8l1aSwH3yvmYHLLxPeaO-gsNeHKC2lizY-t2VNTlclpO2_gHBs3JnhtsO5hKKkDqnibOqb1h8gGEL1A1b9Jxj_ez6SX_AZ7cOXc8dEGIavxmktg08IG5GzSmUaSkz8-leJgkQ069fnes75YXZOb3Y5rdy1brFfdThQ_fCq8NzXIsiDgIYJJKP2RaeDcqvJvunU5-lCQTkNgX-uZtkpB-974-yJuc5cV1_9L89OYgR_8Gv30r_OUZbdPOaeOGjSdotKJLQLuM0t9coW8pE8CBV-kQq7oeauudz2o-53YcDA2ez-dVIzZ2bFhRJn13T0KwQ-BRxpwGe5IhdoYQrkDyzXyPwqETmDrT7khTTh9EZWXtIdPhBlQIDAvEwcsvYeG5uxsYXA4-Di6q1LYQdd4ppF6ibiIT1vhZcgCWe7q-Ms3rq1c4m2awQwY3xRPrpr-j9lRJy0wW97_FH9DBr9BJT_kvcuuoDzuX1oQmOWViVz60hnjsrFQNz4B1QkIK2cs2jRofVH8uGsQ9znBpz9ZKepab292hdVqk6HtNmLV5Yqm2l6e23vNsfFRMDounqCT0NHiMAtXnUFnvn_SWpA610H1aNxH1fgMXlPuqP_osimVFeUxy5TR87DQnE4HWzVChqqCCyBaaExkU6ge1a2lXa_kTGpQnEPjsl70tip_Rfu0726YCCxkUefAziKEOe37-CrB6osaZsQK-or6nvuKS1NLMUDVzBTOjo6YeLGgcyJkxY89KNY48KmHg-TLkRmdBAwFnBo1lqCqta3Qkj6FQwj5VVWmVaz3_Af9I9uo)
 ```
 flowchart LR
@@ -102,6 +105,8 @@ flowchart LR
         linkStyle 7 stroke-width:2px,fill:none,stroke:blue
         linkStyle 11 stroke-width:2px,fill:none,stroke:red
 ```
+## GitHub Push Code
+```
 git add .
 
 git commit -m 'init'
@@ -110,3 +115,12 @@ git branch -M main
 
 git push -u origin main
 ```
+## To Do
+
+- [x] Calculate `u,v` 
+- [ ] Verify `u,v`  by check each operation in `vkitti_edit_benchmark.json`
+- [ ] Try generate `*.json` by generate `delete` operation
+- [ ] Try generate `*.json` by generate `ry` operation
+- [ ] Try generate `*.json` by change `u,v` operation
+
+

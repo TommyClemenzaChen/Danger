@@ -26,7 +26,7 @@ The DANGER framework is universal to many opensource dataset. In this repo we pr
 
 ## Tutorials
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/jayhsu0627/DANGER/blob/main/docs/CUDA9_3D_SDN.ipynb)
 
 
 ## License

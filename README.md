@@ -6,7 +6,7 @@ The DANGER framework is universal to many opensource dataset. In this repo we pr
 ## Overview
 - [Changelog](#changelog)
 - [Model Zoo](#model-zoo)
-- [Tutorials](docs/INSTALL.md)
+- [Tutorials](#tutorials)
 - [Citation](#citation)
 
 ## Changelog
@@ -26,6 +26,7 @@ The DANGER framework is universal to many opensource dataset. In this repo we pr
 
 ## Tutorials
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
 
 
 ## License

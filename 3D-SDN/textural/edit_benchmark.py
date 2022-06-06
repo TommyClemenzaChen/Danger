@@ -43,7 +43,9 @@ paths = []
 
 # edit
 edit_list = json.load(open(opt.edit_list))
-edit_list = edit_list[:len(edit_list) // 2]  # last half of the edit list is reconstruction
+# edit_list = edit_list[:len(edit_list) // 2]  # last half of the edit list is reconstruction
+edit_list = edit_list[:len(edit_list)]  # last half of the edit list is reconstruction
+
 for i, edit_item in enumerate(edit_list):
     # set up base images
     world, topic, source, target = edit_item['world'], edit_item['topic'], edit_item['source'], edit_item['target']

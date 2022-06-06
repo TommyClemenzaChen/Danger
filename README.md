@@ -34,7 +34,7 @@ The DANGER framework is universal to many opensource dataset. In this repo we pr
 Use our notebook hosted on Colab/Colab Pro will help you setup all the prerequisites automatically.
 
 ```
-Sun Jun  5 01:01:52 2022       
+Sun Jun  5 01:15:01 2022       
 +-----------------------------------------------------------------------------+
 | NVIDIA-SMI 460.32.03    Driver Version: 460.32.03    CUDA Version: 11.2     |
 |-------------------------------+----------------------+----------------------+
@@ -43,9 +43,23 @@ Sun Jun  5 01:01:52 2022
 |                               |                      |               MIG M. |
 |===============================+======================+======================|
 |   0  Tesla P100-PCIE...  Off  | 00000000:00:04.0 Off |                    0 |
-| N/A   36C    P0    28W / 250W |      0MiB / 16280MiB |      0%      Default |
+| N/A   37C    P0    28W / 250W |      0MiB / 16280MiB |      0%      Default |
 |                               |                      |                  N/A |
 +-------------------------------+----------------------+----------------------+
+                                                                               
++-----------------------------------------------------------------------------+
+| Processes:                                                                  |
+|  GPU   GI   CI        PID   Type   Process name                  GPU Memory |
+|        ID   ID                                                   Usage      |
+|=============================================================================|
+|  No running processes found                                                 |
++-----------------------------------------------------------------------------+
+Python 3.6.10 :: Anaconda, Inc.
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2017 NVIDIA Corporation
+Built on Fri_Sep__1_21:08:03_CDT_2017
+Cuda compilation tools, release 9.0, V9.0.176
+time: 2min 19s (started: 2022-06-05 01:12:42 +00:00)
 ```
 
 ## Tutorials
@@ -57,8 +71,8 @@ We host our tutorial notebooks on Colab, and we suggest you initialize your vm w
 >3D-SDN environment:
 * There are sections in this notebook: `Hardware Setup`, `3D-SDN Example`, `Semantic Training`, `Geometry Training`, `Textural Training`, and `test.json`
 * Please run `Hardware Setup` to modify the default supported drivers that Colab provided.
-* Run `3D-SDN Example` to verify the installation.
-* Use `test.json`, provided in step 2, to generate your dataset.
+* Run `3D-SDN Example` to verify the installation, which would help you finish the `Getting Started` section described in 3D-SDN.
+* Use `test.json`, provided in step 2, to generate your dataset. You can ignore the `Semantic Training`, `Geometry Training`, `Textural Training` steps, but it would be helpful when you interested to train you own model.
 
 2 [JSON generator](https://github.com/jayhsu0627/DANGER/blob/main/docs/Design_JSON.ipynb)
 

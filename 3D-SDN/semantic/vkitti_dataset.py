@@ -271,7 +271,8 @@ class TestDataset(torchdata.Dataset):
         elif opt.test_img == 'benchmark':
             self.list_sample = []
             benchmark_json = json.load(open(opt.benchmark_json))
-            for pair in benchmark_json[:len(benchmark_json) // 2]:
+            for pair in benchmark_json[:len(benchmark_json)]:
+            # for pair in benchmark_json[:len(benchmark_json) // 2]:
                 world, topic, source = pair['world'], pair['topic'], pair['source']
                 self.list_sample += [os.path.join(world, topic, source + '.png')]
         else:

@@ -16,6 +16,12 @@ The DANGER framework is universal to many opensource dataset. In this repo we pr
 
 ### What does `DANGER` do?
 
+`0002` Cut-in
+
+![Origin](https://github.com/jayhsu0627/DANGER/blob/main/Pics/0002_clone.gif)
+![Cut-in](https://github.com/jayhsu0627/DANGER/blob/main/Pics/0002_motion.gif)
+
+
 `0018` Cut-in
 
 ![Origin](https://github.com/jayhsu0627/DANGER/blob/main/Pics/0018_clone.gif)
@@ -88,7 +94,7 @@ We host our tutorial notebooks on Colab, and we suggest you initialize your vm w
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1vFl4zFHlEVxBBqOe_Q6wgT_zsQC1F8W_?usp=sharing)
 
-Generated `JSON` files are preserved at [cfgs](/cfgs/).
+Generated `JSON` files are preserved at [JSONs](/JSONs/).
 
 ## License
 `DANGER` is released under the [MIT License](/LICENSE)

@@ -22,7 +22,8 @@ The DANGER framework is universal to many opensource dataset. In this repo we pr
 
 `0006` Lane Change
 
-![Origin](https://github.com/jayhsu0627/DANGER/blob/main/Pics/0006_clone.gif)
+<img src="[drawing.jpg](https://github.com/jayhsu0627/DANGER/blob/main/Pics/0006_clone.gif)" alt="Origin" width="200"/>
+
 ![Lane Change](https://github.com/jayhsu0627/DANGER/blob/main/Pics/0006_motion.gif)
 
 

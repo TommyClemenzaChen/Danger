@@ -111,8 +111,8 @@ class WaymoToKITTI(object):
             # parse calibration files
             self.save_calib(frame, file_idx, frame_idx)
 
-            # parse point clouds
-            self.save_lidar(frame, file_idx, frame_idx)
+            # # parse point clouds
+            # self.save_lidar(frame, file_idx, frame_idx)
 
             # parse label files
             self.save_label(frame, file_idx, frame_idx)

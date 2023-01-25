@@ -235,3 +235,11 @@ If you find this toolkit useful, please consider citing:
   year={2020}
 }
 ```
+
+## Modification for Danger Training
+
+1. Update `parse_range_image_and_camera_projection` functin
+2. Disable `self.save_lidar` 
+3. [TODO] Disable output of camera for `image_1` to `image_1`, leave `image_0`
+4. [TODO] Add output of segmentation
+
